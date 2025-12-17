@@ -11,7 +11,7 @@ $targetDate = "2025-12-01" # 対象日付以降のデータを取り込む
 $defUserAddress = "xxxx@xxxx" # IDが削除されている場合の代替ユーザ
 # 適宜修正
 $siteUrl = "https://$tenantname.sharepoint.com/sites/$site"
-$newurl = "https://y$tenantname.sharepoint.com/sites/$site/SiteAssets/Lists/$listID/"
+$newurl = "https://$tenantname.sharepoint.com/sites/$site/SiteAssets/Lists/$listID/"
 $base_newurl = "https://$tenantname.sharepoint.com/sites/xxxxx_new_site_xxxxx/"
 ####
 
